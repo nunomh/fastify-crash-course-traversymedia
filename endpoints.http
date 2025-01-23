@@ -3,3 +3,22 @@ GET http://localhost:3001/items
 
 ### GET SINGLE ITEM
 GET http://localhost:3001/items/1
+
+### CREATE ITEM
+POST http://localhost:3001/items
+Content-Type: application/json
+
+{
+	"name": "Item 4"
+}
+
+### UPDATE ITEM
+PUT http://localhost:3001/items/1
+Content-Type: application/json
+
+{
+	"name": "Item 4 Updated"
+}
+
+### DELETE ITEM
+DELETE http://localhost:3001/items/1
