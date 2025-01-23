@@ -5,3 +5,7 @@ Based on Traversy Media youtube video https://www.youtube.com/watch?v=Lk-uVEVGxO
 #### Create project and Install dependencies
 
 `npm init -y`
+
+`npm install fastify fastify-swagger uuid`
+
+`npm i -D nodemon`
